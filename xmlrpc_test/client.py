@@ -19,7 +19,7 @@ def decode_audio(encoded_string, output_file):
 
 
 # 连接到服务器
-with xmlrpc.client.ServerProxy("http://localhost:8000/RPC2") as proxy:
+with xmlrpc.client.ServerProxy("http://localhost:8000/TTSRPC") as proxy:
     # 调用服务器上的方法
     result_add = proxy.add(5, 3)
     result_subtract = proxy.subtract(10, 4)

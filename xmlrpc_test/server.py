@@ -4,7 +4,7 @@ from xmlrpc.server import SimpleXMLRPCRequestHandler
 
 # 限制请求路径
 class RequestHandler(SimpleXMLRPCRequestHandler):
-    rpc_paths = ('/RPC2',)
+    rpc_paths = ('/TTSRPC',)
 
 # 创建服务器
 with SimpleXMLRPCServer(('localhost', 8000), requestHandler=RequestHandler) as server:

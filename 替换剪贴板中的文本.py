@@ -10,6 +10,10 @@ replaceDicList = [
         "stringNeedToPeplace": "C#",
         "replaceString": """<sub alias="C Sharp">C#</sub>"""
     },
+    {
+        "stringNeedToPeplace": "回调",
+        "replaceString": """<phoneme alphabet="sapi" ph="hui 2 diao 4">回调</phoneme>"""
+    },
 ]
 
 clipstr = pyperclip.paste()
